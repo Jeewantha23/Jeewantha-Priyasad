@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav {
+
+	background: skyblue;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+}
+.logo{
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 70px;
+}
+ul{
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+.main_img{
+ width: 100%;
+ height: 500px;
+}
+.section1{
+	padding-top: 70px;
+}
+.img_text{
+    position:absolute;
+	top: 40%;
+	left: 450px;
+	color: white;
+	background: midnightblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 30px;
+
+}
+ {
+	width: 100%;
+	height: 250px;
+}
+.welcome_img {
+	width: 100%;
+	height: 250px;
+}
+.container{
+	padding-top: 70px;
+
+.courses{
+	width: 90%;
+	height: 200px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.admission_form h1{
+	color: black;
+}
+.select-items{
+	background-color: lightcyan;
+}
+
